@@ -11,6 +11,9 @@ if (isset($_POST["info"]))
     <title>Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
+        body{
+            background-color: #818181;
+        }
         #sidebar {
             height: 100%;
             width: 0;
@@ -51,34 +54,33 @@ if (isset($_POST["info"]))
         }
     </style>
 </head>
+<nav>
 
+</nav>
 <body>
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="locker.php">Locker</a>
-        <a href="alles.php">Alles</a>
-        <a href="skin.php">Skins</a>
-        <a href="backbling.php">Backblings</a>
-        <a href="emote.php">Emotes</a>
-        <a href="wapens.php">Wapens</a>
+
+        <a href="standpunten.php">Standpunten</a>
+        <a href="bron.php">Bronvermelding</a>
+        <a href="contact.php">Contact</a>
     </div>
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
-        <p style="float:right;">profiel</p>
-        <h1 style="text-align: center;">Locker</h1>
+        <h1 style="text-align: center;">NLV</h1>
+        
         <div class="beschrijving-sm">
-            <div class="bg-secondary text-white" style="height: 60px; margin: 10px; text-align: center;">
-                <p>Dit is je locker hierin kun je jouw geselecteerd items bekijken</p>
+            <div class="text-white" style="height: 480px; margin: 10px; text-align: center;">
+                <p><img src="logo.png"></p>
+                <p>Inleiding o Beschrijving van de politieke stroming (minimaal 200 woorden)
+o Beschrijving van jullie eigen politieke partij (minimaal 150 woorden)</p>
+
             </div>
         </div>
-        <div class="bg-secondary text-white">
-            <p>jens</p>
-        </div>
     </div>
-
     <footer>
         <div style="text-align: center;">
-            <p>©2024 176555@student.horizoncollege.nl</p>
+            <p>©2024 NLV</p>
         </div>
     </footer>
 
@@ -103,3 +105,4 @@ if (isset($_POST["info"]))
 </body>
 
 </html>
+
