@@ -11,9 +11,32 @@ if (isset($_POST["info"]))
     <title>Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        body{
-            background-color: #818181;
+        body {
+            background-color: white;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
         }
+
+        nav {
+            background-color: darkred;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: transparent;
+        }
+
         #sidebar {
             height: 100%;
             width: 0;
@@ -21,7 +44,7 @@ if (isset($_POST["info"]))
             z-index: 1;
             top: 0;
             left: 0;
-            background-color: #111;
+            background-color: darkgrey;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
@@ -31,13 +54,13 @@ if (isset($_POST["info"]))
             padding: 10px 15px;
             text-decoration: none;
             font-size: 25px;
-            color: #818181;
+            color: black;
             display: block;
             transition: 0.3s;
         }
 
         #sidebar a:hover {
-            color: #f1f1f1;
+            color: black;
         }
 
         #sidebar .closebtn {
@@ -52,16 +75,31 @@ if (isset($_POST["info"]))
             transition: margin-left .5s;
             padding: 16px;
         }
+
+        footer {
+            background-color: darkblue; 
+            color: white;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        nav img {
+            width: 100px;
+            height: auto;
+        }
     </style>
 </head>
 <nav>
+        <a href="standpunten.php">Standpunten</a>
+        <p><img src="logo.png"></p>
 
-</nav>
+    </nav>
 <body>
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-
-        <a href="standpunten.php">Standpunten</a>
+        <a href="index.php">Home</a>
+        <a href="informatie.php">Informatie Partij</a>
         <a href="bron.php">Bronvermelding</a>
         <a href="contact.php">Contact</a>
     </div>
@@ -71,16 +109,12 @@ if (isset($_POST["info"]))
         
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 480px; margin: 10px; text-align: center;">
-                <p><img src="logo.png"></p>
-                <p>Inleiding o Beschrijving van de politieke stroming (minimaal 200 woorden)
-o Beschrijving van jullie eigen politieke partij (minimaal 150 woorden)</p>
-
             </div>
         </div>
     </div>
     <footer>
         <div style="text-align: center;">
-            <p>©2024 NLV</p>
+        <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
         </div>
     </footer>
 
