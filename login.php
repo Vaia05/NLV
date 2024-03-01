@@ -33,7 +33,16 @@
                 <br>
                 <input type="submit" value="log in">
             </form>
+            <form method="post" action="index.php">
+            <input type="submit" value="back" name="back">
+            <?php
+            if (!isset($_POST["back"])) {
+                return true;
+            }
+            ?>
+            </form>
         </section>
     </main>
 </body>
+
 </html>
