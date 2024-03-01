@@ -5,6 +5,7 @@
 session_start();
 if (isset($_POST["info"]))
 ?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +45,7 @@ if (isset($_POST["info"]))
             z-index: 1;
             top: 0;
             left: 0;
-            background-color:darkgrey;
+            background-color: darkgrey;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
@@ -77,7 +78,7 @@ if (isset($_POST["info"]))
         }
 
         footer {
-            background-color: darkblue; 
+            background-color: darkblue;
             color: white;
             text-align: center;
             position: fixed;
@@ -92,10 +93,11 @@ if (isset($_POST["info"]))
     </style>
 </head>
 <nav>
-        <a href="standpunten.php">Standpunten</a>
-        <p><img src="logo.png"></p>
+    <a href="standpunten.php">Standpunten</a>
+    <p><img src="logo.png"></p>
 
-    </nav>
+</nav>
+
 <body>
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -103,14 +105,15 @@ if (isset($_POST["info"]))
         <a href="informatie.php">Informatie Partij</a>
         <a href="bron.php">Bronvermelding</a>
         <a href="contact.php">Contact</a>
+
     </div>
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Informatie</h1>
-        <p>Inleiding o Beschrijving van de politieke stroming (minimaal 200 woorden)
-o Beschrijving van jullie eigen politieke partij (minimaal 150 woorden)</p>
-</p>
-        
+        <li>Inleiding</li>
+        <li>Beschrijving van de politieke stroming (minimaal 200 woorden)</li>
+        <li>Beschrijving van jullie eigen politieke partij (minimaal 150 woorden)</li>
+
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 480px; margin: 10px; text-align: center;">
             </div>
@@ -118,7 +121,7 @@ o Beschrijving van jullie eigen politieke partij (minimaal 150 woorden)</p>
     </div>
     <footer>
         <div style="text-align: center;">
-        <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
+            <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
         </div>
     </footer>
 
