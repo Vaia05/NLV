@@ -144,6 +144,7 @@
     
     <nav>
         <a href="standpunten.php">Standpunten</a>
+        <a href="login.php">Inloggen</a>
         <p><img src="logo.png" alt="Logo"></p>
     </nav>
     

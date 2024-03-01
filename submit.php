@@ -21,6 +21,7 @@
         echo "<p>Naam: " . $naam . "</p>";
         echo "<p>Email: " . $email . "</p>";
         echo "<p>Telefoonnummer: " . $telefoonnummer . "</p>";
+        echo "<p>vraag:" . $vraag . "</php>";
 
         echo "<p>Dankjewel voor het inzenden!</p>";
     } else {

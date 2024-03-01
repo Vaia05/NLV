@@ -92,6 +92,7 @@ if (isset($_POST["info"]))
 </head>
 <nav>
         <a href="standpunten.php">Standpunten</a>
+        <a href="login.php">Inloggen</a>
         <p><img src="logo.png"></p>
 
     </nav>
