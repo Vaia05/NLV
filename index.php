@@ -100,13 +100,10 @@ if (isset($_POST["info"]))
 
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
-        <h1 style="text-align: center;">Vrijheid in actie, vooruit met Visie</h1>
-<h2 style="text-align: center;">Vrijheid, Vooruit, Verenigd</h2>
-<h3 style="text-align: center;">vrijheid vieren , vooruit met passie</h3>
-<h4 style="text-align: center; ">Vrijheid verbindt, Samen vooruit</h4>
+
         <div class="beschrijving-sm">
             <div class="text-black" style="height: 480px; margin: 10px; text-align: center;">
-            <p><img src="logo.png"></p>
+            <p><img src="logo1.png"><img src="logo.png"></p>
             </div>
         </div>
     </div>

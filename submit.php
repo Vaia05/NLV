@@ -16,12 +16,14 @@
         $naam = $_POST["naam"];
         $email = $_POST["email"];
         $telefoonnummer = $_POST["telefoonnummer"];
+        $vraag = $_POST["vraag"];
+
 
        
         echo "<p>Naam: " . $naam . "</p>";
         echo "<p>Email: " . $email . "</p>";
         echo "<p>Telefoonnummer: " . $telefoonnummer . "</p>";
-        echo "<p>vraag:" . $vraag . "</php>";
+        echo "<p>Je vraag:" . $vraag . "</php>";
 
         echo "<p>Dankjewel voor het inzenden!</p>";
     } else {

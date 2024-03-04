@@ -19,7 +19,6 @@ if (isset($_POST["info"]))
 
         nav {
             background-color: darkred;
-            padding: 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -108,13 +107,12 @@ if (isset($_POST["info"]))
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Wonen</h1>
-        <li>1.</li>
-        <li>2.</li>
-        <li>3.</li>
-        <li>4.</li>
-        <li>5.</li>
-</p>
-        
+        <li>Standpunt 1:</li>
+        <li>Standpunt 2:</li>
+        <li>Standpunt 3:</li>
+        <li>Standpunt 4:</li>
+        <li>Standpunt 5:</li>
+
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 480px; margin: 10px; text-align: center;">
             </div>

@@ -95,7 +95,7 @@ if (isset($_POST["info"]))
 <nav>
     <a href="standpunten.php">Standpunten</a>
     <a href="login.php">Inloggen</a>
-    <p><img src="logo.png"></p>
+    <p><img src="logo1.png"></p>
 
 </nav>
 
@@ -112,6 +112,14 @@ if (isset($_POST["info"]))
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Informatie</h1>
         <li>Inleiding</li>
+
+        <p>Wij zijn Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester. 
+            Onze naam NLV staat voor Nederlandse Vrijheid.
+            Wij zijn een rechtse partij en we zijn dus voor de stroming liberalisme.</p>
+            We vinden vrijheid heel erg belangrijk voor ons land.
+            We gaan het op onze website hebben over bepaalde standpunten en over 
+
+        
         <li>Beschrijving van de politieke stroming (minimaal 200 woorden)</li>
         <li>Beschrijving van jullie eigen politieke partij (minimaal 150 woorden)</li>
 
