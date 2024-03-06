@@ -93,6 +93,7 @@ if (isset($_POST["info"]))
 <nav>
     
         <a href="standpunten.php">Standpunten</a>
+        <a href="mensen.php">Mensen</a>
         <a href="login.php">Inloggen</a>
         <p><img src="logo.png"></p>
 
