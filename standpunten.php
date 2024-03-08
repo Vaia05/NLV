@@ -74,13 +74,60 @@
             padding: 16px;
         }
 
-        footer {
-            background-color: darkblue; 
-            color: white;
-            text-align: center;
-            position: fixed;
+        @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            margin-bottom: 400px;
+        }
+
+        .footer {
+            position: absolute;
             bottom: 0;
             width: 100%;
+            height: 300px;
+        }
+
+
+        @media (max-width: 567em) {
+            body {
+                margin-bottom: 400px;
+            }
+
+            .footer {
+                height: 300px;
+            }
+        }
+
+        footer {
+            padding-top: 30px;
+            background-color: darkblue;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover,
+        footer a:focus {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px dotted #999;
+        }
+
+        footer .form-control {
+            background-color: #1f2022;
+            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+            border: none;
+            resize: none;
+            color: white;
+            padding: 0.7em 1em;
         }
 
         nav img {
@@ -100,7 +147,7 @@
             height: 200px;
             background-color: rgba(0, 0, 0, 0.5);
             color: white;
-            margin: 0 auto 10px; 
+            margin: 0 auto 10px;
             text-align: center;
             cursor: pointer;
             transition: background-color 0.3s ease;
@@ -141,78 +188,111 @@
 </head>
 
 <body>
-    
+
     <nav>
         <a href="standpunten.php">Standpunten</a>
         <a href="mensen.php">Mensen</a>
         <a href="login.php">Inloggen</a>
         <p><img src="logo.png" alt="Logo"></p>
     </nav>
-    
+
     <div id="content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1>Standpunten</h1>
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 200px; margin: 10px; text-align: center;">
-    <main>
-        <article class="game-tile" onclick="location.href='wonen.php';">
-            <div class="game-background" style="background-image: url('woon.png');"></div>
-            <h2>Wonen</h2>
-        </article>
+                <main>
+                    <article class="game-tile" onclick="location.href='wonen.php';">
+                        <div class="game-background" style="background-image: url('woon.png');"></div>
+                        <h2>Wonen</h2>
+                    </article>
 
-        <article class="game-tile" onclick="location.href='klimaat-energie.php';">
-            <div class="game-background" style="background-image: url('klimaat.png');"></div>
-            <h2>Klimaat en energie</h2>
-        </article>
+                    <article class="game-tile" onclick="location.href='klimaat-energie.php';">
+                        <div class="game-background" style="background-image: url('klimaat.png');"></div>
+                        <h2>Klimaat en energie</h2>
+                    </article>
 
-        <article class="game-tile" onclick="location.href='migratie-intergratie.php';">
-            <div class="game-background" style="background-image: url('migration.png');"></div>
-            <h2>Migratie en integratie</h2>
-        </article>
+                    <article class="game-tile" onclick="location.href='migratie-intergratie.php';">
+                        <div class="game-background" style="background-image: url('migration.png');"></div>
+                        <h2>Migratie en integratie</h2>
+                    </article>
 
-        <article class="game-tile" onclick="location.href='veiligheid.php';">
-            <div class="game-background" style="background-image: url('veiligheid.png');"></div>
-            <h2>Veiligheid</h2>
-        </article>
+                    <article class="game-tile" onclick="location.href='veiligheid.php';">
+                        <div class="game-background" style="background-image: url('veiligheid.png');"></div>
+                        <h2>Veiligheid</h2>
+                    </article>
 
-        <article class="game-tile" onclick="location.href='onderwijs.php';">
-            <div class="game-background" style="background-image: url('onderwijs.png');"></div>
-            <h2>Onderwijs</h2>
-        </article>
-    </main>
-    <div id="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="index.php">Home</a>
-        <a href="informatie.php">Informatie Partij</a>
-        <a href="bron.php">Bronvermelding</a>
-        <a href="contact.php">Contact</a>
-    </div>
+                    <article class="game-tile" onclick="location.href='onderwijs.php';">
+                        <div class="game-background" style="background-image: url('onderwijs.png');"></div>
+                        <h2>Onderwijs</h2>
+                    </article>
+                </main>
+                <div id="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="index.php">Home</a>
+                    <a href="informatie.php">Informatie Partij</a>
+                    <a href="bron.php">Bronvermelding</a>
+                    <a href="contact.php">Contact</a>
+                </div>
 
 
-    <footer>
-        <div style="text-align: center;">
-            <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
-        </div>
-    </footer>
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h5><i class="fa fa-road"></i>NLV</h5>
+                                <hr>
+                                </hr>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a href="standpunten.php">Standpunten</a><img src="pijl.png" style="height:40px"></li>
+                                            <li><a href="wonen.php">Wonen</a></li>
+                                            <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
+                                            <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
+                                            <li><a href="veiligheid.php">Veiligheid</a></li>
+                                            <li><a href="onderwijs.php">Onderwijs</a></li>
+                                            <hr>
+                                            </hr>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="login.php">Login</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
+                                            <li><a href="mensen.php">Mensen</a></li>
 
-    <script>
-        function openNav() {
-            document.getElementById("sidebar").style.width = "250px";
-            document.getElementById("main-content").style.marginLeft = "250px";
-        }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-        function closeNav() {
-            document.getElementById("sidebar").style.width = "0";
-            document.getElementById("main-content").style.marginLeft = "0";
-        }
+                    <div style="text-align: center;">
+                        <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
+                    </div>
 
-        window.onload = function() {
-            if (document.cookie.split(';').some((item) => item.trim().startsWith('sidebar_open='))) {
-                document.getElementById("sidebar").style.width = "250px";
-                document.getElementById("main-content").style.marginLeft = "250px";
-            }
-        };
-    </script>
+
+                    <script>
+                        function openNav() {
+                            document.getElementById("sidebar").style.width = "250px";
+                            document.getElementById("main-content").style.marginLeft = "250px";
+                        }
+
+                        function closeNav() {
+                            document.getElementById("sidebar").style.width = "0";
+                            document.getElementById("main-content").style.marginLeft = "0";
+                        }
+
+                        window.onload = function() {
+                            if (document.cookie.split(';').some((item) => item.trim().startsWith('sidebar_open='))) {
+                                document.getElementById("sidebar").style.width = "250px";
+                                document.getElementById("main-content").style.marginLeft = "250px";
+                            }
+                        };
+                    </script>
 </body>
 
 </html>

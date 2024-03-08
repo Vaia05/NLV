@@ -43,7 +43,7 @@ if (isset($_POST["info"]))
             z-index: 1;
             top: 0;
             left: 0;
-            background-color: darkgrey;
+            background-color: darkgray;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
@@ -104,7 +104,6 @@ if (isset($_POST["info"]))
             }
         }
 
-
         footer {
             padding-top: 30px;
             background-color:darkblue;
@@ -148,6 +147,8 @@ if (isset($_POST["info"]))
         <a href="informatie.php">Informatie Partij</a>
         <a href="bron.php">Bronvermelding</a>
         <a href="contact.php">Contact</a>
+        <p><img src="logo.png" style="width:100px"></p>
+
     </div>
 
     <div id="main-content">
