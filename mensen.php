@@ -170,10 +170,9 @@ footer .form-control {
     </style>
 </head>
 <nav>
-    <a href="standpunten.php">Standpunten</a>
     <a href="mensen.php">Mensen</a>
+    <a href="contact.php">Contact</a>
     <a href="login.php">Inloggen</a>
-    <p><img src="logo.png"></p>
 
 </nav>
 
@@ -183,8 +182,10 @@ footer .form-control {
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="index.php">Home</a>
         <a href="informatie.php">Informatie Partij</a>
+        <a href="standpunten.php">Standpunten</a>
         <a href="bron.php">Bronvermelding</a>
-        <a href="contact.php">Contact</a>
+        <p><img src="logo.png" style="width:100px"></p>
+
     </div>
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
@@ -217,6 +218,38 @@ footer .form-control {
             </div>
         </div>
         <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h5><i class="fa fa-road"></i>NLV</h5>
+                <hr></hr>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="standpunten.php">Standpunten</a><img src="pijl.png" style="height:40px"></li>
+                            <li><a href="wonen.php">Wonen</a></li>
+                            <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
+                            <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
+                            <li><a href="veiligheid.php">Veiligheid</a></li>
+                            <li><a href="onderwijs.php">Onderwijs</a></li>
+                            <hr></hr>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                        <li><a href="index.php">Home</a></li>
+                            <li><a href="login.php">Login</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="mensen.php">Mensen</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-5">

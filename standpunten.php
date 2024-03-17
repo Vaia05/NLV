@@ -189,13 +189,23 @@
 
 <body>
 
-    <nav>
-        <a href="standpunten.php">Standpunten</a>
-        <a href="mensen.php">Mensen</a>
-        <a href="login.php">Inloggen</a>
-        <p><img src="logo.png" alt="Logo"></p>
-    </nav>
+<nav>
+    <a href="mensen.php">Mensen</a>
+    <a href="contact.php">Contact</a>
+    <a href="login.php">Inloggen</a>
 
+</nav>
+
+
+    <div id="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.php">Home</a>
+        <a href="informatie.php">Informatie Partij</a>
+        <a href="standpunten.php">Standpunten</a>
+        <a href="bron.php">Bronvermelding</a>
+        <p><img src="logo.png" style="width:100px"></p>
+
+    </div>
     <div id="content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1>Standpunten</h1>
@@ -227,14 +237,6 @@
                         <h2>Onderwijs</h2>
                     </article>
                 </main>
-                <div id="sidebar">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <a href="index.php">Home</a>
-                    <a href="informatie.php">Informatie Partij</a>
-                    <a href="bron.php">Bronvermelding</a>
-                    <a href="contact.php">Contact</a>
-                </div>
-
 
                 <footer class="footer">
                     <div class="container">

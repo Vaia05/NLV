@@ -5,6 +5,7 @@
 session_start();
 if (isset($_POST["info"]))
 ?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -76,14 +77,51 @@ if (isset($_POST["info"]))
             padding: 16px;
         }
 
-        footer {
-            background-color: darkblue; 
-            color: white;
-            text-align: center;
-            position: fixed;
+        .footer {
+            position: absolute;
             bottom: 0;
             width: 100%;
+            height: 400px;
         }
+
+
+        @media (max-width: 567em) {
+            body {
+                margin-bottom: 400px;
+            }
+
+            .footer {
+                height: 400px;
+            }
+        }
+
+        footer {
+            padding-top: 30px;
+            background-color: darkblue;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover,
+        footer a:focus {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px dotted #999;
+        }
+
+        footer .form-control {
+            background-color: #1f2022;
+            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+            border: none;
+            resize: none;
+            color: white;
+            padding: 0.7em 1em;
+        }
+
         nav img {
             width: 100px;
             height: auto;
@@ -91,55 +129,88 @@ if (isset($_POST["info"]))
     </style>
 </head>
 <nav>
-    
-        <a href="standpunten.php">Standpunten</a>
-        <a href="mensen.php">Mensen</a>
-        <a href="login.php">Inloggen</a>
-        <p><img src="logo.png"></p>
+    <a href="mensen.php">Mensen</a>
+    <a href="contact.php">Contact</a>
+    <a href="login.php">Inloggen</a>
 
-    </nav>
+</nav>
+
 <body>
+
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="index.php">Home</a>
         <a href="informatie.php">Informatie Partij</a>
+        <a href="standpunten.php">Standpunten</a>
         <a href="bron.php">Bronvermelding</a>
-        <a href="contact.php">Contact</a>
+        <p><img src="logo.png" style="width:100px"></p>
+
     </div>
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Bronvermelding</h1>
-        
+
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 480px; margin: 10px; text-align: center;">
             </div>
         </div>
     </div>
-    <footer>
-        <div style="text-align: center;">
-        <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h5><i class="fa fa-road"></i>NLV</h5>
+                    <hr>
+                    </hr>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="standpunten.php">Standpunten</a><img src="pijl.png" style="height:40px"></li>
+                                <li><a href="wonen.php">Wonen</a></li>
+                                <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
+                                <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
+                                <li><a href="veiligheid.php">Veiligheid</a></li>
+                                <li><a href="onderwijs.php">Onderwijs</a></li>
+                                <hr>
+                                </hr>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="login.php">Login</a></li>
+                                <li><a href="contact.php">Contact</a></li>
+                                <li><a href="mensen.php">Mensen</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
 
-    <script>
-        function openNav() {
-            document.getElementById("sidebar").style.width = "250px";
-            document.getElementById("main-content").style.marginLeft = "250px";
-        }
+        <div style="text-align: center;">
+            <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
+        </div>
 
-        function closeNav() {
-            document.getElementById("sidebar").style.width = "0";
-            document.getElementById("main-content").style.marginLeft = "0";
-        }
-
-        window.onload = function() {
-            if (document.cookie.split(';').some((item) => item.trim().startsWith('sidebar_open='))) {
+        <script>
+            function openNav() {
                 document.getElementById("sidebar").style.width = "250px";
                 document.getElementById("main-content").style.marginLeft = "250px";
             }
-        };
-    </script>
+
+            function closeNav() {
+                document.getElementById("sidebar").style.width = "0";
+                document.getElementById("main-content").style.marginLeft = "0";
+            }
+
+            window.onload = function() {
+                if (document.cookie.split(';').some((item) => item.trim().startsWith('sidebar_open='))) {
+                    document.getElementById("sidebar").style.width = "250px";
+                    document.getElementById("main-content").style.marginLeft = "250px";
+                }
+            };
+        </script>
 </body>
 
 </html>
-

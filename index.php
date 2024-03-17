@@ -133,8 +133,8 @@ if (isset($_POST["info"]))
     </style>
 </head>
 <nav>
-    <a href="standpunten.php">Standpunten</a>
     <a href="mensen.php">Mensen</a>
+    <a href="contact.php">Contact</a>
     <a href="login.php">Inloggen</a>
 
 </nav>
@@ -145,8 +145,8 @@ if (isset($_POST["info"]))
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="index.php">Home</a>
         <a href="informatie.php">Informatie Partij</a>
+        <a href="standpunten.php">Standpunten</a>
         <a href="bron.php">Bronvermelding</a>
-        <a href="contact.php">Contact</a>
         <p><img src="logo.png" style="width:100px"></p>
 
     </div>
