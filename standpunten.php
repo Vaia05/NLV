@@ -184,6 +184,10 @@
             object-fit: cover;
             border-radius: 10px;
         }
+        nav img {
+            width: 100px;
+            height: auto;
+        }
     </style>
 </head>
 
@@ -193,7 +197,7 @@
     <a href="mensen.php">Mensen</a>
     <a href="contact.php">Contact</a>
     <a href="login.php">Inloggen</a>
-
+    <p><img src="logo.png"></p>
 </nav>
 
 

@@ -130,12 +130,18 @@ if (isset($_POST["info"]))
             color: white;
             padding: 0.7em 1em;
         }
+        
+        nav img {
+            width: 100px;
+            height: auto;
+        }
     </style>
 </head>
 <nav>
     <a href="mensen.php">Mensen</a>
     <a href="contact.php">Contact</a>
     <a href="login.php">Inloggen</a>
+    <p><img src="logo.png"></p>
 
 </nav>
 

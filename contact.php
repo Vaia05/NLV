@@ -248,6 +248,8 @@ if (isset($_POST["info"]))
     <a href="mensen.php">Mensen</a>
     <a href="contact.php">Contact</a>
     <a href="login.php">Inloggen</a>
+    <p><img src="logo.png"></p>
+
 
 </nav>
 

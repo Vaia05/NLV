@@ -175,6 +175,7 @@ body {
     <a href="mensen.php">Mensen</a>
     <a href="contact.php">Contact</a>
     <a href="login.php">Inloggen</a>
+    <p><img src="logo.png"></p>
 
 </nav>
 
@@ -231,7 +232,7 @@ body {
                             <li><a href="standpunten.php">Standpunten</a><img src="pijl.png" style="height:40px"></li>
                             <li><a href="wonen.php">Wonen</a></li>
                             <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
-                            <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
+                            <li><a href="migratie-intergratie.php">Migratie en integratie</a></li>
                             <li><a href="veiligheid.php">Veiligheid</a></li>
                             <li><a href="onderwijs.php">Onderwijs</a></li>
                             <hr></hr>
