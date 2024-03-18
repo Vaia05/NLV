@@ -12,12 +12,6 @@ if (isset($_POST["info"]))
     <title>Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        body {
-            background-color: white;
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-        }
-
         nav {
             background-color: darkred;
             padding: 10px;
@@ -38,6 +32,10 @@ if (isset($_POST["info"]))
             background-color: transparent;
         }
 
+        body {
+            background-color: white;
+        }
+
         #sidebar {
             height: 100%;
             width: 0;
@@ -45,7 +43,7 @@ if (isset($_POST["info"]))
             z-index: 1;
             top: 0;
             left: 0;
-            background-color: darkgrey;
+            background-color: darkgray;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
@@ -77,6 +75,17 @@ if (isset($_POST["info"]))
             padding: 16px;
         }
 
+        @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            margin-bottom: 300px;
+        }
+
         .footer {
             position: absolute;
             bottom: 0;
@@ -97,7 +106,7 @@ if (isset($_POST["info"]))
 
         footer {
             padding-top: 30px;
-            background-color: darkblue;
+            background-color:darkblue;
             color: white;
         }
 
@@ -108,7 +117,7 @@ if (isset($_POST["info"]))
 
         footer a:hover,
         footer a:focus {
-            color: white;
+            color:white;
             text-decoration: none;
             border-bottom: 1px dotted #999;
         }
@@ -120,11 +129,6 @@ if (isset($_POST["info"]))
             resize: none;
             color: white;
             padding: 0.7em 1em;
-        }
-
-        nav img {
-            width: 100px;
-            height: auto;
         }
     </style>
 </head>
@@ -149,7 +153,20 @@ if (isset($_POST["info"]))
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Bronvermelding</h1>
+        <p>
+            What is Lorem Ipsum?
 
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Why do we use it?
+
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+            Where does it come from?
+
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        </p>
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 480px; margin: 10px; text-align: center;">
             </div>

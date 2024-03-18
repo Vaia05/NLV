@@ -76,6 +76,97 @@ if (isset($_POST["info"]))
             transition: margin-left .5s;
             padding: 16px;
         }
+        nav {
+            background-color: darkred;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: transparent;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        #sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: darkgray;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        #sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            display: block;
+            transition: 0.3s;
+        }
+
+        #sidebar a:hover {
+            color: black;
+        }
+
+        #sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #main-content {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+
+        @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            margin-bottom: 300px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 400px;
+        }
+
+
+        @media (max-width: 567em) {
+            body {
+                margin-bottom: 400px;
+            }
+
+            .footer {
+                height: 400px;
+            }
+        }
 
         footer {
             padding-top: 30px;
@@ -174,6 +265,7 @@ if (isset($_POST["info"]))
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Contact</h1>
+        <p style="text-align: center;">Wil je nog contact opnemen met ons? Dat kan hier!</p>
         <div class="box-container">
             <div class="box">
                 <h3>Email adres</h3>
@@ -181,11 +273,11 @@ if (isset($_POST["info"]))
             </div>
             <div class="box">
                 <h3>Telefoonnummer</h3>
-                <p>0612345678</p>
+                <p>072 547 66 00 </p>
             </div>
             <div class="box">
                 <h3>Adres</h3>
-                <p>Postbus 2308</p>
+                <p>Kruseman van Eltenweg 4</p>
                 <p>1352 KB Alkmaar</p>
             </div>
         </div>

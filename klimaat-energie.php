@@ -11,12 +11,6 @@ if (isset($_POST["info"]))
     <title>Homepage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        body {
-            background-color: white;
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-        }
-
         nav {
             background-color: darkred;
             padding: 10px;
@@ -37,6 +31,10 @@ if (isset($_POST["info"]))
             background-color: transparent;
         }
 
+        body {
+            background-color: white;
+        }
+
         #sidebar {
             height: 100%;
             width: 0;
@@ -44,7 +42,7 @@ if (isset($_POST["info"]))
             z-index: 1;
             top: 0;
             left: 0;
-            background-color:darkgrey;
+            background-color: darkgray;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
@@ -75,6 +73,36 @@ if (isset($_POST["info"]))
             transition: margin-left .5s;
             padding: 16px;
         }
+
+        @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            margin-bottom: 300px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 400px;
+        }
+
+
+        @media (max-width: 567em) {
+            body {
+                margin-bottom: 400px;
+            }
+
+            .footer {
+                height: 400px;
+            }
+        }
+
         footer {
             padding-top: 30px;
             background-color:darkblue;
@@ -101,7 +129,6 @@ if (isset($_POST["info"]))
             color: white;
             padding: 0.7em 1em;
         }
-
         nav img {
             width: 100px;
             height: auto;
@@ -109,22 +136,19 @@ if (isset($_POST["info"]))
     </style>
 </head>
 <nav>
-    <a href="mensen.php">Mensen</a>
-    <a href="contact.php">Contact</a>
-    <a href="login.php">Inloggen</a>
+        <a href="standpunten.php">Standpunten</a>
+        <a href="mensen.php">Mensen</a>
+        <a href="login.php">Inloggen</a>
+        <p><img src="logo.png"></p>
 
-</nav>
-
+    </nav>
 <body>
-
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="index.php">Home</a>
         <a href="informatie.php">Informatie Partij</a>
-        <a href="standpunten.php">Standpunten</a>
         <a href="bron.php">Bronvermelding</a>
-        <p><img src="logo.png" style="width:100px"></p>
-
+        <a href="contact.php">Contact</a>
     </div>
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>

@@ -73,7 +73,30 @@
         .login-form input[type="submit"]:hover {
             background-color: darkred;
         }
+        
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 400px;
+        }
 
+
+        @media (max-width: 567em) {
+            body {
+                margin-bottom: 400px;
+            }
+
+            .footer {
+                height: 400px;
+            }
+        }
+
+        footer {
+            padding-top: 30px;
+            background-color:darkblue;
+            color: white;
+        }
 
         footer a {
             color: white;
@@ -82,7 +105,7 @@
 
         footer a:hover,
         footer a:focus {
-            color: white;
+            color:white;
             text-decoration: none;
             border-bottom: 1px dotted #999;
         }
@@ -95,6 +118,7 @@
             color: white;
             padding: 0.7em 1em;
         }
+    
 
         nav img {
             width: 100px;
