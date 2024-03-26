@@ -9,7 +9,7 @@ if (isset($_POST["info"]))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Mensen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         nav {
@@ -32,6 +32,11 @@ if (isset($_POST["info"]))
             background-color: transparent;
         }
 
+        nav img {
+            width: 100px;
+            height: auto;
+        }
+
         body {
             background-color: white;
         }
@@ -43,7 +48,7 @@ if (isset($_POST["info"]))
             z-index: 1;
             top: 0;
             left: 0;
-            background-color: darkgray;
+            background-color: #EDEDED;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
@@ -70,10 +75,42 @@ if (isset($_POST["info"]))
             margin-left: 50px;
         }
 
-        #main-content {
-            transition: margin-left .5s;
-            padding: 16px;
+
+
+        .person-box {
+            margin-bottom: 30px;
+            padding: 4px;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
+
+        .person-box img {
+            max-width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .person-box p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .person-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .person-box {
+                padding: 15px;
+            }
+        }
+
 
         @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
@@ -85,6 +122,7 @@ if (isset($_POST["info"]))
         body {
             margin-bottom: 300px;
         }
+
 
         .footer {
             position: absolute;
@@ -106,7 +144,7 @@ if (isset($_POST["info"]))
 
         footer {
             padding-top: 30px;
-            background-color:darkblue;
+            background-color: darkblue;
             color: white;
         }
 
@@ -117,7 +155,7 @@ if (isset($_POST["info"]))
 
         footer a:hover,
         footer a:focus {
-            color:white;
+            color: white;
             text-decoration: none;
             border-bottom: 1px dotted #999;
         }
@@ -129,10 +167,6 @@ if (isset($_POST["info"]))
             resize: none;
             color: white;
             padding: 0.7em 1em;
-        }
-        nav img {
-            width: 100px;
-            height: auto;
         }
     </style>
 </head>
@@ -151,32 +185,38 @@ if (isset($_POST["info"]))
         <a href="index.php">Home</a>
         <a href="informatie.php">Informatie Partij</a>
         <a href="standpunten.php">Standpunten</a>
-        <a href="bron.php">Bronvermelding</a>
-        <p><img src="logo.png" style="width:100px"></p>
 
     </div>
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
-        <h1 style="text-align: center;">Bronvermelding</h1>
-        <p>
-            What is Lorem Ipsum?
-
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            Why do we use it?
-
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-            Where does it come from?
-
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-        </p>
-        <div class="beschrijving-sm">
-            <div class="text-white" style="height: 480px; margin: 10px; text-align: center;">
-            </div>
+        <div class="col-md-1">
+            <img src="jens.png" alt="Person 1"></a>
         </div>
     </div>
+    <?php
+// Informatie over Jens Martensen
+$name = "Jens Martensen";
+$title = "Minister President van NLV";
+// Voeg andere informatie toe indien nodig
+    ?>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><?php echo $name; ?></title>
+    </head>
+
+    <body>
+        <h1><?php echo $name; ?></h1>
+        <p><?php echo $title; ?></p>
+        <!-- Voeg andere informatie toe indien nodig -->
+    </body>
+
+    </html>
+
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -190,7 +230,7 @@ if (isset($_POST["info"]))
                                 <li><a href="standpunten.php">Standpunten</a><img src="pijl.png" style="height:40px"></li>
                                 <li><a href="wonen.php">Wonen</a></li>
                                 <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
-                                <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
+                                <li><a href="migratie-intergratie.php">Migratie en integratie</a></li>
                                 <li><a href="veiligheid.php">Veiligheid</a></li>
                                 <li><a href="onderwijs.php">Onderwijs</a></li>
                                 <hr>
@@ -211,28 +251,63 @@ if (isset($_POST["info"]))
             </div>
         </div>
 
-        <div style="text-align: center;">
-            <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
-        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h5><i class="fa fa-road"></i>NLV</h5>
+                        <hr>
+                        </hr>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a href="standpunten.php">Standpunten</a><img src="pijl.png" style="height:40px"></li>
+                                    <li><a href="wonen.php">Wonen</a></li>
+                                    <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
+                                    <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
+                                    <li><a href="veiligheid.php">Veiligheid</a></li>
+                                    <li><a href="onderwijs.php">Onderwijs</a></li>
+                                    <hr>
+                                    </hr>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="login.php">Login</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="mensen.php">Mensen</a></li>
 
-        <script>
-            function openNav() {
-                document.getElementById("sidebar").style.width = "250px";
-                document.getElementById("main-content").style.marginLeft = "250px";
-            }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            function closeNav() {
-                document.getElementById("sidebar").style.width = "0";
-                document.getElementById("main-content").style.marginLeft = "0";
-            }
+            <div style="text-align: center;">
+                <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
+            </div>
 
-            window.onload = function() {
-                if (document.cookie.split(';').some((item) => item.trim().startsWith('sidebar_open='))) {
+
+            <script>
+                function openNav() {
                     document.getElementById("sidebar").style.width = "250px";
                     document.getElementById("main-content").style.marginLeft = "250px";
                 }
-            };
-        </script>
+
+                function closeNav() {
+                    document.getElementById("sidebar").style.width = "0";
+                    document.getElementById("main-content").style.marginLeft = "0";
+                }
+
+                window.onload = function() {
+                    if (document.cookie.split(';').some((item) => item.trim().startsWith('sidebar_open='))) {
+                        document.getElementById("sidebar").style.width = "250px";
+                        document.getElementById("main-content").style.marginLeft = "250px";
+                    }
+                };
+            </script>
 </body>
 
 </html>

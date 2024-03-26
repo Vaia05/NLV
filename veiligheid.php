@@ -44,7 +44,7 @@ if (isset($_POST["info"]))
             z-index: 1;
             top: 0;
             left: 0;
-            background-color:darkgrey;
+            background-color:#EDEDED;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
@@ -142,8 +142,6 @@ footer .form-control {
         <a href="index.php">Home</a>
         <a href="informatie.php">Informatie Partij</a>
         <a href="standpunten.php">Standpunten</a>
-        <a href="bron.php">Bronvermelding</a>
-        <p><img src="logo.png" style="width:100px"></p>
 
     </div>
     <div id="main-content">

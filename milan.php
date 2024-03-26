@@ -188,33 +188,34 @@ if (isset($_POST["info"]))
 
     </div>
     <div id="main-content">
-        <span class="header" style="font-size:30px; cursor:pointer" onclick="openNav()">☰</span>
-
-        <h1>Mensen</h1>
-        <div class="row">
-        <div class="col-md-3">
-            <div class="person-box">
-                <a href="jens.php"><img src="jens.png" alt="Person 1"></a>
-                <p>Jens Martensen</p>
-                <p>Minister President van NLV</p>
+        <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+ <div class="col-md-1">
+               <img src="milan.png" alt="Person 3"></a>
             </div>
         </div>
+        <?php
+    $name = "Milan Waagmeester";
+    $title = "Fractievoorzitter van NLV";
+    $kwaliteit = "Goed bezig";
+        ?>
+        <!DOCTYPE html>
+        <html lang="en">
 
-        <div class="col-md-3">
-            <div class="person-box">
-                <a href="vaia.php"><img src="vaia.png" alt="Person 2"></a>
-                <p>Vaishnavi Thambippillai</p>
-                <p>Lijsttrekker</p>
-            </div>
-        </div>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title><?php echo $name; ?></title>
+        </head>
 
-        <div class="col-md-3">
-            <div class="person-box">
-                <a href="milan.php"><img src="milan.png" alt="Person 3"></a>
-                <p>Milan Waagmeester</p>
-                <p>Fractievoorzitter</p>
-            </div>
-        </div>
+        <body>
+            <h1><?php echo $name; ?></h1>
+            <p><?php echo $title; ?></p>
+            <p><?php echo $kwaliteit; ?></p>
+
+        </body>
+
+        </html>
+
 
         <footer class="footer">
             <div class="container">

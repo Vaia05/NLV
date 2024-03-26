@@ -42,7 +42,7 @@ if (isset($_POST["info"]))
             z-index: 1;
             top: 0;
             left: 0;
-            background-color: darkgray;
+            background-color:#EDEDED;
             overflow-x: hidden;
             transition: 0.5s;
             padding-top: 60px;
@@ -147,7 +147,6 @@ if (isset($_POST["info"]))
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="index.php">Home</a>
         <a href="informatie.php">Informatie Partij</a>
-        <a href="bron.php">Bronvermelding</a>
         <a href="contact.php">Contact</a>
     </div>
     <div id="main-content">
