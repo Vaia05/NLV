@@ -197,7 +197,7 @@
     <a href="mensen.php">Mensen</a>
     <a href="contact.php">Contact</a>
     <a href="login.php">Inloggen</a>
-    <p><img src="logo.png"></p>
+    <a href="index.php"><img src="logo.png"></a>
 </nav>
 
 
