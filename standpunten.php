@@ -224,7 +224,7 @@
                         <h2>Klimaat en energie</h2>
                     </article>
 
-                    <article class="game-tile" onclick="location.href='migratie-intergratie.php';">
+                    <article class="game-tile" onclick="location.href='migratie-integratie.php';">
                         <div class="game-background" style="background-image: url('migration.png');"></div>
                         <h2>Migratie en integratie</h2>
                     </article>

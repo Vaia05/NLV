@@ -213,7 +213,7 @@
     <div class="container">
         <h1>Minister President Jens</h1>
         <img class="profile-img" src="jens.png" alt="Profielfoto">
-        <p><strong>Titel:</strong> Fractievoorzitter van NLV</p>
+        <p><strong>Titel:</strong> Minister President van NLV</p>
         <p><strong>Woonplaats:</strong> Akersloot</p>
         <h2>Functies</h2>
         <ul>
