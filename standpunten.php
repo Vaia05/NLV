@@ -203,14 +203,13 @@
 
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="index.php">Home</a>
-        <a href="informatie.php">Informatie Partij</a>
+       <a href="informatie.php">Informatie Partij</a>
         <a href="standpunten.php">Standpunten</a>
 
     </div>
     <div id="content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
-        <h1>Standpunten</h1>
+        <h1 style="justify-content: center;">Standpunten</h1>
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 200px; margin: 10px; text-align: center;">
                 <main>

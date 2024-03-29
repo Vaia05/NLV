@@ -140,10 +140,8 @@ if (isset($_POST["info"]))
 </nav>
 
 <body>
-<h1 style="text-align: center;">"Vrijheid, Vooruitgang, en Verantwoordelijkheid: Stem op de Liberalistische Partij voor een Beter Morgen!"</h1>
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="index.php">Home</a>
         <a href="informatie.php">Informatie Partij</a>
         <a href="standpunten.php">Standpunten</a>
 

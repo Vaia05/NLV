@@ -138,7 +138,6 @@ footer .form-control {
 
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="index.php">Home</a>
         <a href="informatie.php">Informatie Partij</a>
         <a href="standpunten.php">Standpunten</a>
 
