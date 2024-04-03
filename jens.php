@@ -34,8 +34,9 @@
         }
 
         p {
-            color: black;
+            color: white;
         }
+
         nav {
             background-color: darkred;
             padding: 10px;
@@ -201,9 +202,10 @@
     <a href="index.php"><img src="logo.png"></a>
 
 </nav>
+
 <body>
 
-<div id="sidebar">
+    <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="informatie.php">Informatie Partij</a>
         <a href="standpunten.php">Standpunten</a>
@@ -225,41 +227,42 @@
         </ul>
     </div>
     <footer class="footer">
-                    <div class="col-md-5">
-                        <h5><i class="fa fa-road"></i>NLV</h5>
+        <div class="col-md-5">
+            <h5><i class="fa fa-road"></i>NLV</h5>
+            <hr>
+            </hr>
+            <div class="row">
+                <div class="col-6">
+                    <ul class="list-unstyled">
+                        <li><a href="standpunten.php">Standpunten</a></li>
+                        <hr></hr>
+                        <li><a href="wonen.php">Wonen</a></li>
+                        <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
+                        <li><a href="migratie-intergratie.php">Migratie en integratie</a></li>
+                        <li><a href="veiligheid.php">Veiligheid</a></li>
+                        <li><a href="onderwijs.php">Onderwijs</a></li>
                         <hr>
                         </hr>
-                        <div class="row">
-                            <div class="col-6">
-                                <ul class="list-unstyled">
-                                    <li><a href="standpunten.php">Standpunten</a><img src="pijl.png" style="height:40px"></li>
-                                    <li><a href="wonen.php">Wonen</a></li>
-                                    <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
-                                    <li><a href="migratie-intergratie.php">Migratie en integratie</a></li>
-                                    <li><a href="veiligheid.php">Veiligheid</a></li>
-                                    <li><a href="onderwijs.php">Onderwijs</a></li>
-                                    <hr>
-                                    </hr>
-                                </ul>
-                            </div>
-                            <div class="col-6">
-                                <ul class="list-unstyled">
-                                    <li><a href="index.php">Home</a></li>
-                                    <li><a href="login.php">Login</a></li>
-                                    <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="mensen.php">Mensen</a></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="list-unstyled">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="login.php">Login</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="mensen.php">Mensen</a></li>
 
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    </ul>
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
 
-           
-                <div style="text-align: center;">
-                    <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
-                </div>
+
+        <div style="text-align: center;">
+            <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
+        </div>
 
 </body>
 

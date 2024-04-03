@@ -34,7 +34,7 @@
         }
 
         p {
-            color: black;
+            color: white;
         }
         nav {
             background-color: darkred;
@@ -210,7 +210,7 @@
 
     </div>
     <div class="container">
-        <h1>Lijsttrekker vaia</h1>
+        <h1>Lijsttrekker Vaishnavi</h1>
         <img class="profile-img" src="vaia.png" alt="Profielfoto">
         <p><strong>Titel:</strong> Lijsttrekker van NLV</p>
         <p><strong>Woonplaats:</strong> Schagen</p>
@@ -232,8 +232,9 @@
                         <div class="row">
                             <div class="col-6">
                                 <ul class="list-unstyled">
-                                    <li><a href="standpunten.php">Standpunten</a><img src="pijl.png" style="height:40px"></li>
-                                    <li><a href="wonen.php">Wonen</a></li>
+                                <li><a href="standpunten.php">Standpunten</a></li>
+                            <hr></hr>                                    
+                            <li><a href="wonen.php">Wonen</a></li>
                                     <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
                                     <li><a href="migratie-intergratie.php">Migratie en integratie</a></li>
                                     <li><a href="veiligheid.php">Veiligheid</a></li>

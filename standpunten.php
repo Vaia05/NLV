@@ -90,24 +90,9 @@
             bottom: 0;
             width: 100%;
             height: 300px;
-        }
-
-
-        @media (max-width: 567em) {
-            body {
-                margin-bottom: 400px;
-            }
-
-            .footer {
-                height: 300px;
-            }
-        }
-
-        footer {
-            padding-top: 30px;
             background-color: darkblue;
-            color: white;
         }
+
 
         footer a {
             color: white;
@@ -188,6 +173,10 @@
             width: 100px;
             height: auto;
         }
+     
+h1{
+    justify-content: center;
+}
     </style>
 </head>
 
@@ -209,7 +198,7 @@
     </div>
     <div id="content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
-        <h1 style="justify-content: center;">Standpunten</h1>
+        <h1 style="text-align: center;">Standpunten</h1>
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 200px; margin: 10px; text-align: center;">
                 <main>
@@ -249,8 +238,9 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <ul class="list-unstyled">
-                                            <li><a href="standpunten.php">Standpunten</a><img src="pijl.png" style="height:40px"></li>
-                                            <li><a href="wonen.php">Wonen</a></li>
+                                        <li><a href="standpunten.php">Standpunten</a></li>
+                            <hr></hr>                                            
+                            <li><a href="wonen.php">Wonen</a></li>
                                             <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
                                             <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
                                             <li><a href="veiligheid.php">Veiligheid</a></li>
