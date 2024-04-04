@@ -122,8 +122,10 @@
 
         main {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+            gap: 20px;
         }
 
         .game-tile {
@@ -174,9 +176,9 @@
             height: auto;
         }
      
-h1{
-    justify-content: center;
-}
+        h1{
+            justify-content: center;
+        }
     </style>
 </head>
 
@@ -189,15 +191,14 @@ h1{
     <a href="index.php"><img src="logo.png"></a>
 </nav>
 
-
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
        <a href="informatie.php">Informatie Partij</a>
         <a href="standpunten.php">Standpunten</a>
-
     </div>
+    
     <div id="content">
-        <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+        <span class="header" style="font-size:30px;cursor:pointer;padding:10px" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Standpunten</h1>
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 200px; margin: 10px; text-align: center;">

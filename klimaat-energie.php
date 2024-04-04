@@ -133,7 +133,6 @@ if (isset($_POST["info"]))
             width: 100px;
             height: auto;
         }
-
        
         .standpunt {
     background-color: #f9f9f9; 

@@ -196,14 +196,14 @@ if (isset($_POST["info"]))
         <span class="header" style="font-size:30px; cursor:pointer" onclick="openNav()">☰</span>
 
         <h1 style="text-align: center;">Mensen</h1>
-        <div class="row">
-        <div class="col-md-3">
-            <div class="person-box">
-                <a href="jens.php"><img src="jens.png" alt="Person 1"></a>
-                <p>Jens Martensen</p>
-                <p>Minister President van NLV</p>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="person-box">
+                    <a href="jens.php"><img src="jens.png" alt="Person 1"></a>
+                    <p>Jens Martensen</p>
+                    <p>Minister President van NLV</p>
+                </div>
             </div>
-        </div>
 
         <div class="col-md-3">
             <div class="person-box">

@@ -148,12 +148,12 @@
             margin-bottom: 300px;
         }
 
-
         .footer {
             position: absolute;
             bottom: 0;
             width: 100%;
             height: 400px;
+            padding:90px;
         }
 
 
@@ -169,7 +169,7 @@
 
         footer {
             padding-top: 30px;
-            background-color: darkblue;
+            background-color:darkblue;
             color: white;
         }
 
@@ -180,7 +180,7 @@
 
         footer a:hover,
         footer a:focus {
-            color: white;
+            color:white;
             text-decoration: none;
             border-bottom: 1px dotted #999;
         }
@@ -192,6 +192,10 @@
             resize: none;
             color: white;
             padding: 0.7em 1em;
+        }
+        nav img {
+            width: 100px;
+            height: auto;
         }
     </style>
 </head>

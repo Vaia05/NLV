@@ -153,6 +153,7 @@
             bottom: 0;
             width: 100%;
             height: 400px;
+            padding: 90px;
         }
 
 
@@ -170,6 +171,7 @@
             padding-top: 30px;
             background-color: darkblue;
             color: white;
+            
         }
 
         footer a {
