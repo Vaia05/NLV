@@ -198,7 +198,7 @@
     </div>
     
     <div id="content">
-        <span class="header" style="font-size:30px;cursor:pointer;padding:10px" onclick="openNav()">☰</span>
+        <span class="header" style="font-size:30px;cursor:pointer;padding:20px" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Standpunten</h1>
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 200px; margin: 10px; text-align: center;">
