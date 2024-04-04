@@ -190,31 +190,37 @@ if (isset($_POST["info"]))
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Klimaat en energie</h1>
         <div class="standpunt">
-            <h2>Standpunt 1</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="energie.png" alt="Standpunt 1">
+            <h2>Standpunt 1: De gemiddelde temperatuur onder 2 graden Celsius te houden.</h2>
+<p>Zodat de ijskappen niet sneller smelten en minder bosbranden ontstaan. Ook zal het makkelijker zijn om de tempratuur weer te verlagen en uitstoot te verminderen. Zomers zullen ook niet zo heftig zijn en een beter gecontroleerde tempratuur zorgt er voor dat de landbouw hetzelfde blijft.
+</p>    <img src="world.png" alt="Standpunt 1">
+            <p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
+
         </div>
         
         <div class="standpunt">
-            <h2>Standpunt 2</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="world.png" alt="Standpunt 2">
+            <h2>Standpunt 2: Fabrieken moeten zich sneller aanpassen aan groene-energie</h2>
+<p>We de temperatuur onder 2 graden Celsius houden. Ook is er minder CO2 uitstoot waardoor het klimaat minder snel zal veranderen. De uitgave aan fossiele brandstof zullen ook omlaag gaan.</p>
+            <img src="fabriek.png" alt="Standpunt 2">
+        <p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
         </div>
         <div class="standpunt">
-            <h2>Standpunt 3</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="bos.png" alt="Standpunt 3">
+            <h2>Standpunt 3: Minder gaskranen gebruiken omdat er andere mogelijkheden zijn om van gas nu energie te gebruiken.</h2>
+<p>Zodat niet een deel van Nederland kapot is door aardbevingen in Groningen. We hebben nu meerdere mogelijkheden om gas te stoppen want koken met gas kan nu inductiekookplaat worden en cv ketel voor douchen wordt nu waterpomp. We hebben dan maar een beetje nodig. Inplaats van veel gebruik. Door zonnepanelen kan je energie opwekken waardoor je bijvoorbeeld je wasmachine en vaatwasser aanzet en bijna niks kost door de energie die opwekt. </p>
+            <img src="energie.png" alt="Standpunt 3">
+            <p>Bron: https://nos.nl/collectie/13902/artikel/2515260-ongeloof-in-groningen-na-uitstel-gasbesluit-eerste-kamer</p>
         </div>
         <div class="standpunt">
-            <h2>Standpunt 4</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="geld.png" alt="Standpunt 4">
+            <h2>Standpunt 4: Meer mensen moeten beginnen met recyclen</h2>
+<p>Zodat de straten en stranden schoner zijn om op te lopen. Je krijgt er ook zelf wat uit, wat je op straat of op het strand vindt is gratis materiaal. Bijvoorbeeld van blikjes kun je een prullenbak maken of iets anders wat handig is in jou leven. Hiervoor heb je alleen een paar handige handen nodig en motivatie om het te doen.</p>            
+<img src="geld.png" alt="Standpunt 4">
+<p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
         </div>
 
         <div class="standpunt">
-            <h2>Standpunt 5</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="fabriek.png" alt="Standpunt 5">
+            <h2>Standpunt 5: Meer kerncentrales in Nederland. </h2>
+<p>Zodat we minder CO2 zullen uitstoten en je wekt er 24 uur per dag energie mee op en het bespaart ruimte vergeleken met windmolen parken. Kernenergie is ook nog eens heel erg goedkoop vergeleken met fossiele brandstoffen. Het is ook vertrouwbaarder dan zon en wind.</p>
+            <img src="bos.png" alt="Standpunt 5">
+            <p>Bron: https://www.consumind.nl/energie/nieuws/voor-en-nadelen-van-kernenergie</p>
         </div>
         </div>
     </div>
