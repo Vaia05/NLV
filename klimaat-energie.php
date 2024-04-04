@@ -212,14 +212,14 @@ if (isset($_POST["info"]))
         <div class="standpunt">
             <h2>Standpunt 4: Meer mensen moeten beginnen met recyclen</h2>
 <p>Zodat de straten en stranden schoner zijn om op te lopen. Je krijgt er ook zelf wat uit, wat je op straat of op het strand vindt is gratis materiaal. Bijvoorbeeld van blikjes kun je een prullenbak maken of iets anders wat handig is in jou leven. Hiervoor heb je alleen een paar handige handen nodig en motivatie om het te doen.</p>            
-<img src="geld.png" alt="Standpunt 4">
+<img src="recycle.png" alt="Standpunt 4">
 <p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
         </div>
 
         <div class="standpunt">
             <h2>Standpunt 5: Meer kerncentrales in Nederland. </h2>
 <p>Zodat we minder CO2 zullen uitstoten en je wekt er 24 uur per dag energie mee op en het bespaart ruimte vergeleken met windmolen parken. Kernenergie is ook nog eens heel erg goedkoop vergeleken met fossiele brandstoffen. Het is ook vertrouwbaarder dan zon en wind.</p>
-            <img src="bos.png" alt="Standpunt 5">
+            <img src="kern.png" alt="Standpunt 5">
             <p>Bron: https://www.consumind.nl/energie/nieuws/voor-en-nadelen-van-kernenergie</p>
         </div>
         </div>
