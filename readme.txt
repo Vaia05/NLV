@@ -1,1 +1,1 @@
-U heeft alleen maar de index.php te openen.
+U heeft alleen maar de index.html te openen.

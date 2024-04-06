@@ -1,81 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
-session_start();
-if (isset($_POST["info"]))
-?>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Informatie</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        body {
-            background-color: white;
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-        }
-
-        nav {
-            background-color: darkred;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 14px 20px;
-            font-size: 18px;
-            transition: background-color 0.3s;
-        }
-
-        nav a:hover {
-            background-color: transparent;
-        }
-
-        #sidebar {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: darkgrey;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-        }
-
-        #sidebar a {
-            padding: 10px 15px;
-            text-decoration: none;
-            font-size: 25px;
-            color: black;
-            display: block;
-            transition: 0.3s;
-        }
-
-        #sidebar a:hover {
-            color: black;
-        }
-
-        #sidebar .closebtn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-        #main-content {
-            transition: margin-left .5s;
-            padding: 16px;
-        }
         nav {
             background-color: darkred;
             padding: 10px;
@@ -194,62 +125,18 @@ if (isset($_POST["info"]))
             color: white;
             padding: 0.7em 1em;
         }
-
+        
         nav img {
             width: 100px;
             height: auto;
         }
-
-        .box-container {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
-
-        .box {
-            width: 20%;
-            padding: 20px;
-            border: 1px solid #ddd;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-
-        form , h2 {
-            width: 600px;
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 50px;
-           
-        }
-
-        form label {
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        form input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            box-sizing: border-box;
-        }
-
-        form input[type="submit"] {
-            background-color: darkred;
-            color: white;
-            cursor: pointer;
-        }
     </style>
 </head>
 <nav>
-    <a href="mensen.php">Mensen</a>
-    <a href="contact.php">Contact</a>
-    <a href="login.php">Inloggen</a>
-    <a href="index.php"><img src="logo.png"></a>
-
+    <a href="mensen.html">Mensen</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Inloggen</a>
+    <a href="index.html"><img src="logo.png"></a>
 
 </nav>
 
@@ -257,54 +144,28 @@ if (isset($_POST["info"]))
 
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="informatie.php">Informatie Partij</a>
-        <a href="standpunten.php">Standpunten</a>
+        <a href="informatie.html">Informatie Partij</a>
+        <a href="standpunten.html">Standpunten</a>
 
     </div>
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
-        <h1 style="text-align: center;">Contact</h1>
-        <p style="text-align: center;">Wil je nog contact opnemen met ons? Dat kan hier!</p>
-        <div class="box-container">
-            <div class="box">
-                <h3>Email adres</h3>
-                <p>NLV@gmail.nl</p>
-            </div>
-            <div class="box">
-                <h3>Telefoonnummer</h3>
-                <p>072 547 66 00 </p>
-            </div>
-            <div class="box">
-                <h3>Adres</h3>
-                <p>Kruseman van Eltenweg 4</p>
-                <p>1352 KB Alkmaar</p>
-            </div>
-        </div>
+        <h1 style="text-align: center;">Informatie</h1>
 
-        <h2>Als je nog vragen hebt, dan kun je het hier achterlaten.</h2>
+        <p>Wij zijn Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester. 
+            Onze naam NLV staat voor Nederlandse Vrijheid.
+    </p>
+         
 
-        <form action="submit.php" method="post">
-            <label for="naam">Naam:</label>
-            <input type="text" placeholder="Naam" id="naam" name="naam">
-
-            <label for="email">Email:</label>
-            <input type="email" placeholder="Email" id="email" name="email">
-
-            <label for="telefoonnummer">Telefoonnummer:</label>
-            <input type="tel" placeholder="Telefoonnummer" id="telefoonnummer" name="telefoonnummer">
-
-            <label for="Vraag">Vraag:</label>
-            <input type="Vraag" placeholder="Vraag" id="Vraag" name="vraag">
-
-            <input type="submit" value="Verstuur">
-        </form>
+        
+        <li>Beschrijving van de politieke stroming (minimaal 200 woorden)</li>
+        <li>Beschrijving van jullie eigen politieke partij (minimaal 150 woorden)</li>
 
         <div class="beschrijving-sm">
             <div class="text-white" style="height: 480px; margin: 10px; text-align: center;">
             </div>
         </div>
     </div>
-
     <footer class="footer">
     <div class="container">
         <div class="row">
@@ -314,22 +175,22 @@ if (isset($_POST["info"]))
                 <div class="row">
                     <div class="col-6">
                         <ul class="list-unstyled">
-                        <li><a href="standpunten.php">Standpunten</a></li>
+                        <li><a href="standpunten.html">Standpunten</a></li>
                             <hr></hr>                            
-                            <li><a href="wonen.php">Wonen</a></li>
-                            <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
-                            <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
-                            <li><a href="zorg.php">Zorg</a></li>
-                            <li><a href="onderwijs.php">Onderwijs</a></li>
+                            <li><a href="wonen.html">Wonen</a></li>
+                            <li><a href="klimaat-energie.html">Klimaat en energie</a></li>
+                            <li><a href="migratie-integratie.html">Migratie en integratie</a></li>
+                            <li><a href="zorg.html">Zorg</a></li>
+                            <li><a href="onderwijs.html">Onderwijs</a></li>
                             <hr></hr>
                         </ul>
                     </div>
                     <div class="col-6">
                         <ul class="list-unstyled">
-                        <li><a href="index.php">Home</a></li>
-                            <li><a href="login.php">Login</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                            <li><a href="mensen.php">Mensen</a></li>
+                        <li><a href="index.html">Home</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="mensen.html">Mensen</a></li>
 
                         </ul>
                     </div>

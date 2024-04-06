@@ -31,7 +31,10 @@
     }
     ?>
 
-
+<form method="post" action="index.html">
+                <input type="submit" value="Terug" name="back" style="background-color: darkblue; color: white;">
+                
+            </form>
 </body>
 
 </html>

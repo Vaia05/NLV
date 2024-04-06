@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-
-session_start();
-if (isset($_POST["info"]))
-?>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informatie</title>
+    <title>Klimaat en energie</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         nav {
@@ -130,45 +125,99 @@ if (isset($_POST["info"]))
             color: white;
             padding: 0.7em 1em;
         }
-        
         nav img {
             width: 100px;
             height: auto;
         }
+       
+        .standpunt {
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    padding: 20px;
+    margin-bottom: 20px; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.standpunt h2 {
+    color: black;
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+.standpunt p {
+    color: black; 
+    font-size: 16px; 
+    line-height: 1.6;
+}
+
+.standpunt img {
+    max-width: 100%; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+}
+
+        img {
+            width: 400px; 
+            height: auto; 
+            border: 2px solid black; 
+            border-radius: 10px;
+            display: block; 
+            margin: 0 auto; 
+            margin-top: 20px; 
+        }
+      
     </style>
 </head>
 <nav>
-    <a href="mensen.php">Mensen</a>
-    <a href="contact.php">Contact</a>
-    <a href="login.php">Inloggen</a>
-    <a href="index.php"><img src="logo.png"></a>
+        <a href="mensen.html">Mensen</a>
+        <a href="contact.html">Contact
+        <a href="login.html">Inloggen</a>
+        <a href="index.html"><img src="logo.png"></a>
 
-</nav>
-
+    </nav>
 <body>
-
     <div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="informatie.php">Informatie Partij</a>
-        <a href="standpunten.php">Standpunten</a>
-
+        <a href="informatie.html">Informatie Partij</a>
+        <a href="standpunten.html">Standpunten</a>
     </div>
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
-        <h1 style="text-align: center;">Informatie</h1>
+        <h1 style="text-align: center;">Klimaat en energie</h1>
+        <div class="standpunt">
+            <h2>De gemiddelde temperatuur onder 2 graden Celsius te houden</h2>
+<p>Zodat de ijskappen niet sneller smelten en minder bosbranden ontstaan. Ook zal het makkelijker zijn om de tempratuur weer te verlagen en uitstoot te verminderen. Zomers zullen ook niet zo heftig zijn en een beter gecontroleerde tempratuur zorgt er voor dat de landbouw hetzelfde blijft.
+</p>    <img src="world.png" alt="Standpunt 1">
+            <p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
 
-        <p>Wij zijn Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester. 
-            Onze naam NLV staat voor Nederlandse Vrijheid.
-    </p>
-         
-
+        </div>
         
-        <li>Beschrijving van de politieke stroming (minimaal 200 woorden)</li>
-        <li>Beschrijving van jullie eigen politieke partij (minimaal 150 woorden)</li>
+        <div class="standpunt">
+            <h2>Fabrieken moeten zich sneller aanpassen aan groene-energie</h2>
+<p>We de temperatuur onder 2 graden Celsius houden. Ook is er minder CO2 uitstoot waardoor het klimaat minder snel zal veranderen. De uitgave aan fossiele brandstof zullen ook omlaag gaan.</p>
+            <img src="fabriek.png" alt="Standpunt 2">
+        <p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
+        </div>
+        <div class="standpunt">
+            <h2>Minder gaskranen gebruiken omdat er andere mogelijkheden zijn om van gas nu energie te gebruiken</h2>
+<p>Zodat niet een deel van Nederland kapot is door aardbevingen in Groningen. We hebben nu meerdere mogelijkheden om gas te stoppen want koken met gas kan nu inductiekookplaat worden en cv ketel voor douchen wordt nu waterpomp. We hebben dan maar een beetje nodig. Inplaats van veel gebruik. Door zonnepanelen kan je energie opwekken waardoor je bijvoorbeeld je wasmachine en vaatwasser aanzet en bijna niks kost door de energie die opwekt. </p>
+            <img src="energie.png" alt="Standpunt 3">
+            <p>Bron: https://nos.nl/collectie/13902/artikel/2515260-ongeloof-in-groningen-na-uitstel-gasbesluit-eerste-kamer</p>
+        </div>
+        <div class="standpunt">
+            <h2>Meer mensen moeten beginnen met recyclen</h2>
+<p>Zodat de straten en stranden schoner zijn om op te lopen. Je krijgt er ook zelf wat uit, wat je op straat of op het strand vindt is gratis materiaal. Bijvoorbeeld van blikjes kun je een prullenbak maken of iets anders wat handig is in jou leven. Hiervoor heb je alleen een paar handige handen nodig en motivatie om het te doen.</p>            
+<img src="recycle.png" alt="Standpunt 4">
+<p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
+        </div>
 
-        <div class="beschrijving-sm">
-            <div class="text-white" style="height: 480px; margin: 10px; text-align: center;">
-            </div>
+        <div class="standpunt">
+            <h2>Meer kerncentrales in Nederland</h2>
+<p>Zodat we minder CO2 zullen uitstoten en je wekt er 24 uur per dag energie mee op en het bespaart ruimte vergeleken met windmolen parken. Kernenergie is ook nog eens heel erg goedkoop vergeleken met fossiele brandstoffen. Het is ook vertrouwbaarder dan zon en wind.</p>
+            <img src="kern.png" alt="Standpunt 5">
+            <p>Bron: https://www.consumind.nl/energie/nieuws/voor-en-nadelen-van-kernenergie</p>
+        </div>
         </div>
     </div>
     <footer class="footer">
@@ -180,22 +229,22 @@ if (isset($_POST["info"]))
                 <div class="row">
                     <div class="col-6">
                         <ul class="list-unstyled">
-                        <li><a href="standpunten.php">Standpunten</a></li>
-                            <hr></hr>                            
-                            <li><a href="wonen.php">Wonen</a></li>
-                            <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
-                            <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
-                            <li><a href="zorg.php">Zorg</a></li>
-                            <li><a href="onderwijs.php">Onderwijs</a></li>
+                            <li><a href="standpunten.html">Standpunten</a></li>
+                            <hr></hr>
+                            <li><a href="wonen.html">Wonen</a></li>
+                            <li><a href="klimaat-energie.html">Klimaat en energie</a></li>
+                            <li><a href="migratie-integratie.html">Migratie en integratie</a></li>
+                            <li><a href="zorg.html">Zorg</a></li>
+                            <li><a href="onderwijs.html">Onderwijs</a></li>
                             <hr></hr>
                         </ul>
                     </div>
                     <div class="col-6">
                         <ul class="list-unstyled">
-                        <li><a href="index.php">Home</a></li>
-                            <li><a href="login.php">Login</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                            <li><a href="mensen.php">Mensen</a></li>
+                        <li><a href="index.html">Home</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="mensen.html">Mensen</a></li>
 
                         </ul>
                     </div>
