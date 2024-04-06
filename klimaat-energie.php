@@ -8,7 +8,7 @@ if (isset($_POST["info"]))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Klimaat en energie</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         nav {
@@ -190,7 +190,7 @@ if (isset($_POST["info"]))
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Klimaat en energie</h1>
         <div class="standpunt">
-            <h2>Standpunt 1: De gemiddelde temperatuur onder 2 graden Celsius te houden.</h2>
+            <h2>De gemiddelde temperatuur onder 2 graden Celsius te houden</h2>
 <p>Zodat de ijskappen niet sneller smelten en minder bosbranden ontstaan. Ook zal het makkelijker zijn om de tempratuur weer te verlagen en uitstoot te verminderen. Zomers zullen ook niet zo heftig zijn en een beter gecontroleerde tempratuur zorgt er voor dat de landbouw hetzelfde blijft.
 </p>    <img src="world.png" alt="Standpunt 1">
             <p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
@@ -198,26 +198,26 @@ if (isset($_POST["info"]))
         </div>
         
         <div class="standpunt">
-            <h2>Standpunt 2: Fabrieken moeten zich sneller aanpassen aan groene-energie</h2>
+            <h2>Fabrieken moeten zich sneller aanpassen aan groene-energie</h2>
 <p>We de temperatuur onder 2 graden Celsius houden. Ook is er minder CO2 uitstoot waardoor het klimaat minder snel zal veranderen. De uitgave aan fossiele brandstof zullen ook omlaag gaan.</p>
             <img src="fabriek.png" alt="Standpunt 2">
         <p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
         </div>
         <div class="standpunt">
-            <h2>Standpunt 3: Minder gaskranen gebruiken omdat er andere mogelijkheden zijn om van gas nu energie te gebruiken.</h2>
+            <h2>Minder gaskranen gebruiken omdat er andere mogelijkheden zijn om van gas nu energie te gebruiken</h2>
 <p>Zodat niet een deel van Nederland kapot is door aardbevingen in Groningen. We hebben nu meerdere mogelijkheden om gas te stoppen want koken met gas kan nu inductiekookplaat worden en cv ketel voor douchen wordt nu waterpomp. We hebben dan maar een beetje nodig. Inplaats van veel gebruik. Door zonnepanelen kan je energie opwekken waardoor je bijvoorbeeld je wasmachine en vaatwasser aanzet en bijna niks kost door de energie die opwekt. </p>
             <img src="energie.png" alt="Standpunt 3">
             <p>Bron: https://nos.nl/collectie/13902/artikel/2515260-ongeloof-in-groningen-na-uitstel-gasbesluit-eerste-kamer</p>
         </div>
         <div class="standpunt">
-            <h2>Standpunt 4: Meer mensen moeten beginnen met recyclen</h2>
+            <h2>Meer mensen moeten beginnen met recyclen</h2>
 <p>Zodat de straten en stranden schoner zijn om op te lopen. Je krijgt er ook zelf wat uit, wat je op straat of op het strand vindt is gratis materiaal. Bijvoorbeeld van blikjes kun je een prullenbak maken of iets anders wat handig is in jou leven. Hiervoor heb je alleen een paar handige handen nodig en motivatie om het te doen.</p>            
 <img src="recycle.png" alt="Standpunt 4">
 <p>Bron: https://www.youtube.com/watch?v=xRLbCYK_7fc</p>
         </div>
 
         <div class="standpunt">
-            <h2>Standpunt 5: Meer kerncentrales in Nederland. </h2>
+            <h2>Meer kerncentrales in Nederland</h2>
 <p>Zodat we minder CO2 zullen uitstoten en je wekt er 24 uur per dag energie mee op en het bespaart ruimte vergeleken met windmolen parken. Kernenergie is ook nog eens heel erg goedkoop vergeleken met fossiele brandstoffen. Het is ook vertrouwbaarder dan zon en wind.</p>
             <img src="kern.png" alt="Standpunt 5">
             <p>Bron: https://www.consumind.nl/energie/nieuws/voor-en-nadelen-van-kernenergie</p>
@@ -238,7 +238,7 @@ if (isset($_POST["info"]))
                             <li><a href="wonen.php">Wonen</a></li>
                             <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
                             <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
-                            <li><a href="veiligheid.php">Veiligheid</a></li>
+                            <li><a href="zorg.php">Zorg</a></li>
                             <li><a href="onderwijs.php">Onderwijs</a></li>
                             <hr></hr>
                         </ul>

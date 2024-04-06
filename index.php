@@ -170,7 +170,7 @@ if (isset($_POST["info"]))
                             <li><a href="wonen.php">Wonen</a></li>
                             <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
                             <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
-                            <li><a href="veiligheid.php">Veiligheid</a></li>
+                            <li><a href="zorg.php">Zorg</a></li>
                             <li><a href="onderwijs.php">Onderwijs</a></li>
                             <hr></hr>
                         </ul>

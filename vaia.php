@@ -23,12 +23,13 @@
         }
 
         h1 {
-            color: #343a40;
+            color: black;
+            font-size: 20px;
         }
 
         .profile-img {
-            max-width: 150px;
-            border-radius: 50%;
+            max-width: 250px;
+            border-radius: 30%;
             margin: 20px auto;
             display: block;
         }
@@ -108,7 +109,7 @@
             border-radius: 10px;
             text-align: center;
             transition: transform 0.3s ease-in-out;
-            background-color: #fff;
+            background-color:whitesmoke;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
 
@@ -211,18 +212,19 @@
 
     </div>
     <div class="container">
-        <h1>Lijsttrekker Vaishnavi</h1>
+    <h1 style="text-align: center;">Vaishnavi Thambippillai</h1>
         <img class="profile-img" src="vaia.png" alt="Profielfoto">
-        <p><strong>Titel:</strong> Lijsttrekker van NLV</p>
-        <p><strong>Woonplaats:</strong> Schagen</p>
-        <h2>Functies</h2>
+        <p style="color:black;"><strong>Titel:</strong> Lijsttrekker van NLV</p>
+        <p style="color:black;"><strong>Woonplaats:</strong> Schagen</p>
+        <p style="color:black;"><strong>Geboortedatum:</strong> 23/02/2005</p>
+
+        <h2>Taken</h2>
         <ul>
-            <li>Vertegenwoordigen van de partij NLV in verkiezingscampagnes en debatten.</li>
-            <li>Ontwikkelen en communiceren van partijstandpunten over belangrijke kwesties.</li>
-            <li>Leiden van interne partijdiscussies en het nemen van beslissingen in samenwerking met partijleden.</li>
-            <li>Onderhouden van contacten met andere politici, belangengroepen en burgers.</li>
-            <li>Zichtbaar zijn in de media om het partijbeleid te promoten en te verdedigen.</li>
-            <li>Stimuleren van betrokkenheid van burgers bij het politieke proces.</li>
+            <li>De NLV vertegenwoordigen in de media</li>
+            <li>Het presenteren van de partijprogramma aan het publiek</li>
+            <li>De partijleden motiveren</li>
+            <li>De strategiëen maken voor de verkiezingen</li>
+            <li>Het onderhandelen over coalitie</li>
         </ul>
     </div>
     <footer class="footer">
@@ -238,7 +240,7 @@
                             <li><a href="wonen.php">Wonen</a></li>
                                     <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
                                     <li><a href="migratie-intergratie.php">Migratie en integratie</a></li>
-                                    <li><a href="veiligheid.php">Veiligheid</a></li>
+                                    <li><a href="zorg.php">Zorg</a></li>
                                     <li><a href="onderwijs.php">Onderwijs</a></li>
                                     <hr>
                                     </hr>
@@ -259,7 +261,7 @@
             </div>
 
            
-                <div style="text-align: center;">
+            <div style="text-align: center; color:white;">
                     <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
                 </div>
 

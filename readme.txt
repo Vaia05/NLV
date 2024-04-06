@@ -1,0 +1,1 @@
+U heeft alleen maar de index.php te openen.

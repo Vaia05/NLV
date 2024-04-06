@@ -9,7 +9,7 @@ if (isset($_POST["info"]))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Contact</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         body {
@@ -319,7 +319,7 @@ if (isset($_POST["info"]))
                             <li><a href="wonen.php">Wonen</a></li>
                             <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
                             <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
-                            <li><a href="veiligheid.php">Veiligheid</a></li>
+                            <li><a href="zorg.php">Zorg</a></li>
                             <li><a href="onderwijs.php">Onderwijs</a></li>
                             <hr></hr>
                         </ul>

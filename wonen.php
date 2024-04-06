@@ -8,7 +8,7 @@ if (isset($_POST["info"]))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Wonen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         nav {
@@ -189,32 +189,34 @@ if (isset($_POST["info"]))
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Wonen</h1>
         <div class="standpunt">
-            <h2>Standpunt 1: Meer huizen gaan isoleren.</h2>
-<p>Zodat je geen warmte verliest in je huis en dus minder energie verliest aan kachel en dus minder hoeft te betalen voor de energierekeningen. Je bent ook nog eens goed bezig met duurzaam zijn door te isoleren.</p>            
-<img src="isoleer.png" alt="Standpunt 1">
-<p>Bron: https://www-rix-co-uk.translate.goog/blog/post/benefits-insulating-your-home?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=rq</p>
+            <h2>De huizen prijzen moeten omlaag gaan</h2>
+<p>Zodat laag inkomen gezinnen, jonge mensen of alleenstaande een kans krijgen om een huis te kopen.Als het huis dus minder kost kunnen laag inkomen gezinnen meer geld uitgeven voor eten en kleding. En kunnen mensen die voor een huis ergens anders moeten wonen makkelijker verhuizen van huis.</p>
+            <img src="huis.png" alt="Standpunt 1">
         </div>
         
         <div class="standpunt">
-            <h2>Standpunt 2</h2>
-            <p>There  many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="standpunt1.jpg" alt="Standpunt 1">
+            <h2>Ouderentehuis moeten ruimtelijker worden </h2>
+<p>Zodat het aantrekkelijker is om sneller er naar toe te gaan. Want als het er veel gezelliger uitziet en is dan willen ouderen op een jongere leeftijd dan 70 daar heen gaan want thuis zitten ze meestal alleen of met ze 2en.</p>            
+<img src="verzorging.png" alt="Standpunt 2">
+        </div>
+        
+        <div class="standpunt">
+            <h2>Meer huizen gaan isoleren</h2>
+            <p>Zodat je geen warmte verliest in je huis en dus minder energie verliest aan kachel en dus minder hoeft te betalen voor de energierekeningen. Je bent ook nog eens goed bezig met duurzaam zijn door te isoleren. Ook een optie is een groendak nemen dit is goede isolatie en je bent ook nog eens goed bezig met het milieu te helpen. Een groendak absorbeert water en is eenvoudig aan te leggen.</p>
+            <img src="isoleer.png" alt="Standpunt 3">
+<p>Bron: https://www-rix-co-uk.translate.goog/blog/post/benefits-insulating-your-home?_x_tr_sl=en&_x_tr_tl=nl&_x_tr_hl=nl&_x_tr_pto=rq</p>
+   
         </div>
         <div class="standpunt">
-            <h2>Standpunt 3</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="standpunt1.jpg" alt="Standpunt 1">
-        </div>
-        <div class="standpunt">
-            <h2>Standpunt 4</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="standpunt1.jpg" alt="Standpunt 1">
+            <h2>Meer huizen gaan over op elektrische kachels.</h2>
+<p>Zodat je duurzamer bezig bent en er tegelijkertijd winst aan maakt. Je maakt er winst aan omdat gas duurder is dan de elektriciteit die je nodig hebt voor de kachel.</p>
+            <img src="kachel.png" alt="Standpunt 4">
         </div>
 
         <div class="standpunt">
-            <h2>Standpunt 5</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="standpunt1.jpg" alt="Standpunt 1">
+            <h2>De huurtoeslag verhogen</h2>
+<p>Zodat mensen met een laag inkomen alsnog een leuke dag met hun kinderen kunnen hebben en dus niet de risico lopen om in armoede te komen door het niet kunnen betalen van huur.Als het huis in een goede buurt zit hebben de kinderen ook meteen goede scholen om naar toe te gaan. </p>            
+<img src="huur.png" alt="Standpunt 5">
         </div>
         </div>
     </div>
@@ -232,7 +234,7 @@ if (isset($_POST["info"]))
                             <li><a href="wonen.php">Wonen</a></li>
                             <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
                             <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
-                            <li><a href="veiligheid.php">Veiligheid</a></li>
+                            <li><a href="zorg.php">Zorg</a></li>
                             <li><a href="onderwijs.php">Onderwijs</a></li>
                             <hr></hr>
                         </ul>

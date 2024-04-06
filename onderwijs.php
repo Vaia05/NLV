@@ -8,7 +8,7 @@ if (isset($_POST["info"]))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Onderwijs</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         nav {
@@ -191,31 +191,31 @@ if (isset($_POST["info"]))
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Onderwijs</h1>
         <div class="standpunt">
-            <h2>Standpunt 1</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="standpunt1.jpg" alt="Standpunt 1">
+            <h2>Meer mensen moeten school afmaken</h2>
+           <p>Scholen worden soepeler met pauzes door leerlingen zelf hun pauzes uit te laten kiezen zolang ze aan school werk doen. Ze moeten gewoon vaste tijden hebben voor pauzes en niet hele tijd op hun telefoon zitten. Ze moeten meer gefocust te werk gaan anders gaat het moeilijk met diploma halen voor je opleiding.</p>
+            <img src="school.png" alt="Standpunt 1">
         </div>
         
         <div class="standpunt">
-            <h2>Standpunt 2</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="standpunt1.jpg" alt="Standpunt 1">
+            <h2>Meer digitalisering</h2>
+           <p>Zodat je sneller informatie kan opzoeken als je een opdracht niet snapt. Het is ook leuker dan op papier of boeken werken. En als je het leuk vindt dan verbetert het je cijfers ook nog eens. Als docenten dus ook met laptops of computers werken dan kan je makkelijker opdrachten online doorsturen en dus gemakkelijk in te leveren. Je raakt altijd het blad kwijt op papier en online niet.</p>
+            <img src="digitaal.png" alt="Standpunt 2">
         </div>
         <div class="standpunt">
-            <h2>Standpunt 3</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="standpunt1.jpg" alt="Standpunt 1">
+            <h2>Meer uitleg en ondersteuning over opleidingen op de middelbare school</h2>
+           <p>Zodat je dan al goed kan kiezen wat je wilt worden want het wordt nu ook wel uitgelegd maar niet genoeg. Ze moeten er meer aandacht aan besteden want sommige mensen die nu op de opleiding zitten vinden het toch niet leuk en geen verwachtingen hebben en dat kan je voorkomen als je meer uitleg krijgt en ondersteuning met kiezen.</p>
+            <img src="kiezen.png" alt="Standpunt 3">
         </div>
         <div class="standpunt">
-            <h2>Standpunt 4</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="standpunt1.jpg" alt="Standpunt 1">
+            <h2>Meer aandacht aan pesten</h2>
+           <p>Zodat iedereen gewoon normaal doet tegen elkaar en je een veilige omgeving hebt en dus goed kan concentreren op school. In plaats van elkaar pijn doen en andere mensen weer bij betrekken. Je moet leren om met respect mensen te behandelen.</p>
+            <img src="pesten.png" alt="Standpunt 4">
         </div>
 
         <div class="standpunt">
-            <h2>Standpunt 5</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-            <img src="standpunt1.jpg" alt="Standpunt 1">
+            <h2>Meer aandacht aan de gedachtegangen van de studenten. Of het mentaal wel met ze goed gaat.</h2>
+           <p>Zodat je meteen geholpen kan worden als het niet goed gaat. Je kan alle oplossingen meteen krijgen. Je kan altijd terecht bij je mentor of directeur. Er wordt om de week een gesprek met je gevoerd met je mentor om te kijken of alles goed gaat.</p>
+            <img src="gedachtegang.png" alt="Standpunt 5">
         </div>
         </div>
     </div>
@@ -233,7 +233,7 @@ if (isset($_POST["info"]))
                             <li><a href="wonen.php">Wonen</a></li>
                             <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
                             <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
-                            <li><a href="veiligheid.php">Veiligheid</a></li>
+                            <li><a href="zorg.php">Zorg</a></li>
                             <li><a href="onderwijs.php">Onderwijs</a></li>
                             <hr></hr>
                         </ul>

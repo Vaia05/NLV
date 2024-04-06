@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lijsttrekker</title>
+    <title>Minister President</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         body {
@@ -23,12 +23,13 @@
         }
 
         h1 {
-            color: #343a40;
+            color: black;
+            font-size: 20px;
         }
 
         .profile-img {
-            max-width: 150px;
-            border-radius: 50%;
+            max-width: 250px;
+            border-radius: 30%;
             margin: 20px auto;
             display: block;
         }
@@ -36,7 +37,6 @@
         p {
             color: white;
         }
-
         nav {
             background-color: darkred;
             padding: 10px;
@@ -109,7 +109,7 @@
             border-radius: 10px;
             text-align: center;
             transition: transform 0.3s ease-in-out;
-            background-color: #fff;
+            background-color:whitesmoke;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
 
@@ -148,12 +148,13 @@
             margin-bottom: 300px;
         }
 
+
         .footer {
             position: absolute;
             bottom: 0;
             width: 100%;
             height: 400px;
-            padding:90px;
+            padding: 90px;
         }
 
 
@@ -169,7 +170,7 @@
 
         footer {
             padding-top: 30px;
-            background-color:darkblue;
+            background-color: darkblue;
             color: white;
         }
 
@@ -180,7 +181,7 @@
 
         footer a:hover,
         footer a:focus {
-            color:white;
+            color: white;
             text-decoration: none;
             border-bottom: 1px dotted #999;
         }
@@ -193,10 +194,6 @@
             color: white;
             padding: 0.7em 1em;
         }
-        nav img {
-            width: 100px;
-            height: auto;
-        }
     </style>
 </head>
 <nav>
@@ -206,67 +203,67 @@
     <a href="index.php"><img src="logo.png"></a>
 
 </nav>
-
 <body>
 
-    <div id="sidebar">
+<div id="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="informatie.php">Informatie Partij</a>
         <a href="standpunten.php">Standpunten</a>
 
     </div>
     <div class="container">
-        <h1>Minister President Jens</h1>
+    <h1 style="text-align: center;">Jens Martensen</h1>
         <img class="profile-img" src="jens.png" alt="Profielfoto">
-        <p><strong>Titel:</strong> Minister President van NLV</p>
-        <p><strong>Woonplaats:</strong> Akersloot</p>
-        <h2>Functies</h2>
+        <p style="color:black;"><strong>Titel:</strong> Minister President van NLV</p>
+        <p style="color:black;"><strong>Woonplaats:</strong> Akersloot</p>
+        <p style="color:black;"><strong>Geboortedatum:</strong> 07/10/2007</p>
+
+        <h2>Taken</h2>
         <ul>
-            <li>Vertegenwoordigen van de partij NLV in verkiezingscampagnes en debatten.</li>
-            <li>Ontwikkelen en communiceren van partijstandpunten over belangrijke kwesties.</li>
-            <li>Leiden van interne partijdiscussies en het nemen van beslissingen in samenwerking met partijleden.</li>
-            <li>Onderhouden van contacten met andere politici, belangengroepen en burgers.</li>
-            <li>Zichtbaar zijn in de media om het partijbeleid te promoten en te verdedigen.</li>
-            <li>Stimuleren van betrokkenheid van burgers bij het politieke proces.</li>
+            <li>De leiding nemen over de tweede kamer</li>
+            <li>De vergaderingen leiden</li>
+            <li>De wetten ondertekenen</li>
+            <li>De regering vertegenwoordigen</li>
+            <li>De noodsituaties leiden</li>
         </ul>
     </div>
     <footer class="footer">
-        <div class="col-md-5">
-            <h5><i class="fa fa-road"></i>NLV</h5>
-            <hr>
-            </hr>
-            <div class="row">
-                <div class="col-6">
-                    <ul class="list-unstyled">
-                        <li><a href="standpunten.php">Standpunten</a></li>
-                        <hr></hr>
-                        <li><a href="wonen.php">Wonen</a></li>
-                        <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
-                        <li><a href="migratie-intergratie.php">Migratie en integratie</a></li>
-                        <li><a href="veiligheid.php">Veiligheid</a></li>
-                        <li><a href="onderwijs.php">Onderwijs</a></li>
+                    <div class="col-md-5">
+                        <h5><i class="fa fa-road"></i>NLV</h5>
                         <hr>
                         </hr>
-                    </ul>
-                </div>
-                <div class="col-6">
-                    <ul class="list-unstyled">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="login.php">Login</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                        <li><a href="mensen.php">Mensen</a></li>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                <li><a href="standpunten.php">Standpunten</a></li>
+                            <hr></hr>                                    
+                            <li><a href="wonen.php">Wonen</a></li>
+                                    <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
+                                    <li><a href="migratie-intergratie.php">Migratie en integratie</a></li>
+                                    <li><a href="zorg.php">Zorg</a></li>
+                                    <li><a href="onderwijs.php">Onderwijs</a></li>
+                                    <hr>
+                                    </hr>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="login.php">Login</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="mensen.php">Mensen</a></li>
 
-                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
 
-
-        <div style="text-align: center;">
-            <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
-        </div>
+           
+            <div style="text-align: center; color:white;">
+                    <p>©2024 NLV Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester</p>
+                </div>
 
 </body>
 

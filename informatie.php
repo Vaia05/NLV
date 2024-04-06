@@ -9,7 +9,7 @@ if (isset($_POST["info"]))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Informatie</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         nav {
@@ -156,13 +156,11 @@ if (isset($_POST["info"]))
     <div id="main-content">
         <span class="header" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
         <h1 style="text-align: center;">Informatie</h1>
-        <li>Inleiding</li>
 
         <p>Wij zijn Jens Martensen, Vaishnavi Thambippillai en Milan Waagmeester. 
             Onze naam NLV staat voor Nederlandse Vrijheid.
-            Wij zijn een rechtse partij en we zijn dus voor de stroming liberalisme.</p>
-            We vinden vrijheid heel erg belangrijk voor ons land.
-            We gaan het op onze website hebben over bepaalde standpunten en over 
+    </p>
+         
 
         
         <li>Beschrijving van de politieke stroming (minimaal 200 woorden)</li>
@@ -187,7 +185,7 @@ if (isset($_POST["info"]))
                             <li><a href="wonen.php">Wonen</a></li>
                             <li><a href="klimaat-energie.php">Klimaat en energie</a></li>
                             <li><a href="migratie-integratie.php">Migratie en integratie</a></li>
-                            <li><a href="veiligheid.php">Veiligheid</a></li>
+                            <li><a href="zorg.php">Zorg</a></li>
                             <li><a href="onderwijs.php">Onderwijs</a></li>
                             <hr></hr>
                         </ul>
